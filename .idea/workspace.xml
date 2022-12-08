@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99cb285-ef9f-482a-a6c0-69c40485c413" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iostream.iml" afterDir="false" />
+    <list default="true" id="e99cb285-ef9f-482a-a6c0-69c40485c413" name="Changes" comment="reading, writing and copying from file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/destination03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileCopy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +92,35 @@
       <workItem from="1670337214409" duration="36000" />
       <workItem from="1670390057073" duration="950000" />
       <workItem from="1670474230147" duration="3992000" />
-      <workItem from="1670495568024" duration="2355000" />
+      <workItem from="1670495568024" duration="3859000" />
     </task>
+    <task id="LOCAL-00001" summary="reading, writing and copying from file">
+      <created>1670498182758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670498182758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reading, writing and copying from file" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading, writing and copying from file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
