@@ -59,11 +59,11 @@ public class Reading {
     }
 
     public static void main(String[] args) {
-        // String file = ".zshrc";
-        // ReadWithInputStream(file);
-        // ReadWithInputStreamReader(file);
-        // ReadFromConsole();
-        // ReadFromConsoleUsingScanner();
-        // ReadStringUsingScanner();
+         String file = "mis/.zshrc";
+         ReadWithInputStream(file);
+         ReadWithInputStreamReader(file);
+         ReadFromConsole();
+         ReadFromConsoleUsingScanner();
+         ReadStringUsingScanner();
     }
 }

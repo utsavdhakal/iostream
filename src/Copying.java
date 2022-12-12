@@ -1,6 +1,27 @@
 import java.io.*;
+import java.util.Scanner;
 
-public class Copy {
+public class Copying {
+
+    private static void copy() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter source file: ");
+        String source = sc.nextLine();
+
+        System.out.print("Enter destination file: ");
+        String destination = sc.nextLine();
+
+        try (FileInputStream in = new FileInputStream(source);
+             FileOutputStream out = new FileOutputStream(destination)) {
+            int data;
+            while ((data = in.read()) != -1) {
+                out.write(data);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("File Copied!");
+    }
 
     private static void copy(String sourceFile, String destinationFile) {
         long startTime = System.currentTimeMillis();
@@ -38,7 +59,10 @@ public class Copy {
     }
 
     public static void main(String[] args) {
-        // copy("greenery.jpg", "greenery-new.jpg");
-        copyWithBuffer("greenery.jpg", "greenery-new.jpg");
+        String sourceFile = "mis/greenery.jpg";
+        String destinationFile = "mis/greenery-copied.jpg";
+        copy();
+        copy(sourceFile, destinationFile);
+        copyWithBuffer(sourceFile, destinationFile);
     }
 }

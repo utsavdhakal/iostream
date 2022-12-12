@@ -32,6 +32,7 @@ public class Writing {
 
     public static void main(String[] args) {
         String link = "https://docs.oracle.com/javase/8/docs/technotes/guides/net/overview/overview.html";
-        downloadWebsite(link, "networking-overview");
+        String file = "networking-overview";
+        downloadWebsite(link, file);
     }
 }
