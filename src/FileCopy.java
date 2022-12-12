@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 public class FileCopy {
     public static void main(String[] args)
-            throws FileNotFoundException, IOException {
+            throws IOException {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter source file: ");
         String source = sc.nextLine();
 
@@ -18,11 +17,11 @@ public class FileCopy {
         FileInputStream fis = new FileInputStream(source);
         FileOutputStream fos = new FileOutputStream(destination);
 
-        int data = fis.read();
-        while (data != -1) {
+        int data;
+        while ((data = fis.read()) != -1) {
             fos.write(data);
-            data = fis.read();
         }
+
         fis.close();
         fos.close();
         System.out.println("File Copied!");
